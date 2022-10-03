@@ -1,0 +1,1723 @@
+@font-face {
+    font-family: "Geometria";
+    src: url("../fonts/Geometria.eot");
+    src: url("../fonts/Geometria.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/Geometria.woff") format("woff");
+    src: url("../fonts/Geometria.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Geometria-extralight";
+    src: url("../fonts/Geometria-ExtraLight.eot");
+    src: url("../fonts/Geometria-ExtraLight.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/Geometria-ExtraLight.woff") format("woff");
+    src: url("../fonts/Geometria-ExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "AGMelanieC";
+    src: url("../fonts/16400.otf");
+    src: url("../fonts/16400.otf?#iefix") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.body{
+    position: relative;
+    width: 100%;
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 17,61px;
+    color: gray;
+    margin: 0 auto;
+    
+    background: black;
+}
+
+
+
+
+
+.wrapper{
+    width: 1238px;
+    margin:0 auto;
+}
+
+
+
+
+.landing{
+    position: relative;
+    width: 1238px;
+    height: 552.79px;
+    left: 81px;
+    top: 24px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 1238px;
+    height: 23px;
+    position: relative  ;
+    z-index: 1000;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+    font-family: 'Geometria-extralight ';
+    color: white;
+    line-height: 20,13px;
+}
+li{
+    list-style-type: none;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.header__logo{
+    
+    height: 19px;
+}
+.header1__item{
+    position: absolute;
+    left: 18.09%;
+    right: 81.18%;
+    top: 13.04%;
+    bottom: 17.39%;     
+}
+.header2__item{
+    position: absolute;
+    left: 19.63%;
+    right: 74.88%;
+    top: 13.04%;
+    bottom: 4.35%;
+}
+.header3__item{
+    position: absolute;
+    left: 33.36%;
+    right: 63.33%;
+    top: 13.04%;
+    bottom: 0%;
+}
+.header4__item{
+    position: absolute;
+    left: 41.84%;
+    right: 50%;
+    top: 13.04%;
+    bottom: 0%;
+}
+.header5__item{
+    position: absolute;
+    left: 55.17%;
+    right: 33.93%;
+    top: 13.04%;
+    bottom: 0%;
+}
+.header6__item{
+    position: absolute;
+    left: 71.24%;
+    right: 25.04%;
+    top: 13.04%;
+    bottom: 0%;
+}
+.header7__item{
+    position: absolute;
+    left: 83.28%;
+    right: 15.11%;
+    top: 4.35%;
+    bottom: 26.09%;
+}
+.header8__item{
+    position: absolute;
+    left: 91.28%;
+    right: 7.43%;
+    top: 8.7%;
+    bottom: 30.43%;
+}
+.header9__item{
+    position: absolute;
+    left: 98.95%;
+    right: 0%;
+    top: 8.7%;
+    bottom: 26.09%;
+}
+.header__link{
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+.start{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+
+    background: url(../image/bruno-martins-442161-unsplash.png) no-repeat;
+    background-size: 100%;
+    filter: blur(5px);
+}
+.osnova__logo{
+    position: absolute;
+    width: 325px;
+    height: 35px;
+    left: 456px;
+    top: 278px; 
+}
+.dots1{
+    position: absolute;
+    width: 36px;
+    height: 8px;
+    left: 601px;
+    top: 340px;
+}
+.osnova__text{
+    position: absolute;
+    width: 325px;
+    height: 74px;
+    left: 456px;
+    top: 375px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #CACACA; 
+}
+.font_chast{
+
+
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #CACACA; 
+}
+.osnova__arrow{
+    position: absolute;
+    width: 28px;
+    height: 14.71px;
+    left: 605px;
+    top: 538.08px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.zagolovok{
+    position: absolute;
+    width: 230px;
+    height: 57px;
+    left: 80px;
+    top: 740px;
+
+    font-family: 'AGMelanieC';
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+
+.wine-card{
+    position: absolute;
+    width: 620px;
+    height: 289px;
+    left: 70px;
+    top: 807px; 
+
+    background: url("../image/alfonso-scarpa-521971-unsplash1.png") no-repeat bottom right;    
+}
+.rectangle2{
+    position: absolute;
+    width: 610px;
+    height: 125px;
+    left: 80px;
+    top: 971px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 0.01%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(4px);
+}
+.text-wine{
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 165px;
+    top: 976px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.wine__zagolovok{
+    position: absolute;
+    width: 63px;
+    height: 22px;
+    left: 165px;
+    top: 904px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+.dots2{
+    position: absolute;
+    width: 36px;
+    height: 8px;
+    left: 167px;
+    top: 944px;
+}
+.podrobnee1{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 165px;
+    top: 1059px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.arrow1{
+    position: absolute;
+    width: 25px;
+    height: 0px;
+    left: 264px;
+    top: 1060px;
+
+    
+    box-sizing: border-box;
+}
+.champagne__card{
+    position: absolute;
+    width: 610px;
+    height: 262px;
+    left: 710px;
+    top: 834px;
+}
+.champagne__background{
+    position: absolute;
+    width: 613px;
+    height: 327px;
+
+    background: url("../image/champagne-top-up1.png") no-repeat;
+}
+.chamapgne__zagolovok{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 85px;
+    top: 70px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.champagne__text{
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 85px;
+    top: 142px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.dots3{
+    position: absolute;
+    width: 36px;
+    height: 8px;
+    left: 87px;
+    top: 110px;
+}
+.go__over{
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 85px;
+    top: 225px;
+}
+.go_over_text{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    right: 44px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+.arrow2{
+    position: absolute;
+    width: 25px;
+    height: 0px;
+    left: 99px;
+
+    box-sizing: border-box;
+}
+.beer__card{
+    position: absolute;
+    width: 608px;
+    height: 262px;
+    left: 82px;
+    top: 1116px;
+}
+.beer__background{
+    position: absolute;
+    width: 633px;
+    height: 312px;
+
+    background: url("../image/elevate-755022-unsplash1.png") no-repeat;
+}
+.beer__zagolovok{
+    position: absolute;
+    width: 63px;
+    height: 22px;
+    left: 84px;
+    top: 70px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.dots4{
+    position: absolute;
+    width: 36px;
+    height: 8px;
+    left: 87px;
+    top: 110px;
+}
+.beer_text{
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 85px;
+    top: 142px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.go_over2{
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 84px;
+    top: 225px;
+}
+.go_over_text2{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.arrow3{
+    position: absolute;
+    width: 25px;
+    height: 0px;
+    left: 99px;
+
+    box-sizing: border-box;
+}
+.rectangle2_1{
+    position: absolute;
+    width: 610px;
+    height: 126px;
+    top: 137px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 0.01%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(4px);
+}
+.rectangle{
+    position: absolute;
+    width: 610px;
+    height: 262px;
+
+    background: #131313;
+}
+.rectangle3_1{
+    position: absolute;
+    width: 610px;
+    height: 125px;
+    right: 0px;
+    top: 137px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 0.01%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(4px);
+}
+.drinks_card{
+    position: absolute;
+    width: 610px;
+    height: 262px;
+    left: 710px;
+    top: 1116px;
+}
+.drink_background{
+    position: absolute;
+    width: 654px;
+    height: 403.92px;
+    
+
+    background: url("../image/alexandru-boicu-1444045-unsplash1.png") no-repeat;
+}
+.rectangle4_1{
+    position: absolute;
+    width: 610px;
+    height: 125px;
+    top: 137px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 0.01%, rgba(0, 0, 0, 0) 100%);
+    backdrop-filter: blur(4px);
+}
+.drinks_zagolovok{
+    position: absolute;
+    width: 205px;
+    height: 29px;
+    left: 85px;
+    top: 70px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+.dots5{
+    position: absolute;
+    width: 36px;
+    height: 8px;
+    left: 87px;
+    top: 110px;
+}
+.drinks_text{
+    position: absolute;
+    width: 400px;
+    height: 65px;
+    left: 85px;
+    top: 142px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.go_over3{
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 85px;
+    top: 225px;
+}
+.go_over_text3{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    right: 44px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+.arrow4{
+    position: absolute;
+    width: 25px;
+    height: 0px;
+    left: 99px;
+    
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popular{
+    position: absolute;
+    width: 1227px;
+    height: 537px;
+    left: 80px;
+    top: 1468px;
+}
+.gradient{
+    position: absolute;
+    width: 1400px;
+    height: 765px;
+    left: 0px;
+    top: 1379px;
+
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.75) 29.66%);
+}
+.popular_background{
+    position: absolute;
+    width: 1482px;
+    height: 748px;
+    left: -51px;
+    top: 1396px;
+
+    background: url(../image/v285-binn-wave_texture-04.png);
+}
+.popular_text{
+    position: absolute;
+    width: 229px;
+    height: 31px;
+    top: -7px;
+
+    font-family: AGMelanieC;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #E5E5E5;
+}
+.go_over4{
+    position: absolute;
+    width: 198px;
+    height: 20px;
+    left: 230px;
+    top: 13px;
+
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #E5E5E5;
+}
+.go_over_text4{
+    left: 0px;
+    top: 0px;
+}
+.arrow4{
+    position: absolute;
+    width: 23px;
+    height: 0px;
+    left: 106px;
+    top: 0px;
+
+    box-sizing: border-box;
+}
+.wine1{
+    position: absolute;
+    width: 73px;
+    height: 298px;
+    left: 111px;
+    top: 93px;
+
+    background: url(../image/8e5fad57b2c651a63138d64511209d4c.png)
+}
+.wine2{
+    position: absolute;
+    width: 73px;
+    height: 298px;
+    left: 418px;
+    top: 92px;
+
+    background: url(../image/94e9535e1c1e8176ddc3a97351a966a0.png)
+}
+.wine3{
+    position: absolute;
+    width: 84px;
+    height: 298px;
+    left: 736px;
+    top: 93px;
+
+    background: url(../image/6ae522d83e7caadcd62e62c20d48712f.png)
+}
+.wine4{
+    position: absolute;
+    width: 90px;
+    height: 300px;
+    left: 1045px;
+    top: 92px;
+
+    background: url(../image/de5c77b9945b462f0dbb4ce5901988f3.png)
+}
+.line1{
+    position: absolute;
+    width: 141px;
+    height: 0px;
+    left: 306px;
+    top: 211px;
+}
+.line2{
+    position: absolute;
+    width: 141px;
+    height: 0px;
+    left: 620px;
+    top: 211px;
+}
+.line3{
+    position: absolute;
+    width: 141px;
+    height: 0px;
+    left: 936px;
+    top: 211px;
+}
+.wine1_text1{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 14px;
+    top: 427px;
+
+    font-family: Geometria-extralight;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #E6E6E6;
+}
+.wine1_text2{
+    position: absolute;
+    width: 267px;
+    height: 42px;
+    left: 14px;
+    top: 468px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #E6E6E6;
+}
+.wine1_text3{
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 14px;
+    top: 517px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #E5E5E5;
+}
+.wine2_text1{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 329px;
+    top: 427px;
+
+    font-family: Geometria-extralight;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #E6E6E6;
+}
+.wine2_text2{
+    position: absolute;
+    width: 267px;
+    height: 42px;
+    left: 329px;
+    top: 468px;
+    
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #E6E6E6;
+}
+.wine2_text3{
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 329px;
+    top: 517px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #E5E5E5;
+}
+.wine3_text1{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 644px;
+    top: 427px;
+
+    font-family: Geometria-extralight;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #E6E6E6;
+}
+.wine3_text2{
+    position: absolute;
+    width: 267px;
+    height: 42px;
+    left: 644px;
+    top: 468px;
+    
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #E6E6E6;
+}
+.wine3_text3{
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 644px;
+    top: 517px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #E5E5E5;
+}
+.wine4_text1{
+    position: absolute;
+    width: 263px;
+    height: 39px;
+    left: 960px;
+    top: 427px;
+
+    font-family: Geometria-extralight;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #E6E6E6;
+}
+.wine4_text2{
+    position: absolute;
+    width: 267px;
+    height: 42px;
+    left: 960px;
+    top: 468px;
+    
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #E6E6E6;
+}
+.wine4_text3{
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 960px;
+    top: 517px;
+
+    font-family: AGMelanieC;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+.background_help{
+    position: absolute;
+    width: 1431px;
+    height: 624px;
+    left: -31px;
+    top: 2144px;
+
+    background: url("../image/alexander-pogorelsky-1438800-unsplash.png") no-repeat;
+}
+.rectangle_help{
+    position: absolute;
+    width: 607px;
+    height: 358px;
+    left: 82px;
+    top: 2277px;
+
+    background: rgba(144, 143, 143, 0.13);
+    backdrop-filter: blur(10px);
+}
+.help_wine_osnova{
+    position: absolute;
+    width: 607px;
+    height: 358px;
+    left: 82px;
+    top: 2277px;
+}
+.help_zagolovok{
+    position: absolute;
+    width: 506px;
+    height: 108px;
+    left: 43px;
+    top: 29px;
+
+    font-family: AGMelanieC;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: left;
+
+
+    color: #FFFFFF;
+}
+.help_text{
+    position: absolute;
+    width: 508px;
+    height: 55px;
+    left: 43px;
+    top: 174px;
+    
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    
+    color: #CACACA;
+}
+.podobrat_back{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 44px;
+    top: 280px;
+
+    background: #020202;
+}
+.podobrat_text{
+    position: absolute;
+    width: 226px;
+    height: 58px;
+    left: 44px;
+    top: 280px;
+
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.interesno_zagolovok{
+    position: absolute;
+    width: 306px;
+    height: 43px;
+    left: 82px;
+    top: 2852px;
+
+    font-family: AGMelanieC;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.interesno_text{
+    top: 0%;
+}
+.recepty{
+    position: absolute;
+    width: 401px;
+    height: 492px;
+    left: 83px;
+    top: 2928px;
+}
+.recepty_back{
+    position: absolute;
+    width: 527px;
+    height: 558px;
+    
+    background: url(../image/cuisine-delicious-dinner-1998920.png) no-repeat;
+}
+.ellipse{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 42px;
+    top: 293px;
+}
+.recepty_zagolovok{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 54px;
+    top: 298px;
+
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.recepty_nazvanie{
+    position: absolute;
+    width: 323px;
+    height: 66px;
+    left: 39px;
+    top: 322px;
+
+    font-family: AGMelanieC;
+    font-size: 26px;
+    line-height: 93.31%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}
+.recepty_text{
+    position: absolute;
+    width: 323px;
+    height: 79px;
+    left: 39px;
+    top: 387px;
+
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.wine{
+    position: absolute;
+    width: 401px;
+    height: 492px;
+    left: 498px;
+    top: 2928px;
+}
+.wine_back{
+    position: absolute;
+    width: 435px;
+    height: 532px;
+
+    background: url(../image/roberta-sorge-141081-unsplash.png) no-repeat;
+}
+.wine_zagolovok{
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 54px;
+    top: 335px;
+
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.wine_nazvanie{
+    position: absolute;
+    width: 323px;
+    height: 66px;
+    left: 39px;
+    top: 359px;
+
+    font-family: AGMelanieC;
+    font-size: 26px;
+    line-height: 93.31%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}
+.wine_text{
+    position: absolute;
+    width: 323px;
+    height: 42px;
+    left: 39px;
+    top: 424px;
+
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.ellipse1{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 42px;
+    top: 329px;
+}
+
+.sovety{
+    position: absolute;
+    width: 401px;
+    height: 245px;
+    left: 921px;
+    top: 2925px;
+}
+.sovety_back{
+    position: absolute;
+    width: 400px;
+    height: 349px;
+
+    background: url(../image/lefteris-kallergis-1458809-unsplash.png) no-repeat;
+}
+.sovety_zagolovok{
+    position: absolute;
+    width: 142px;
+    height: 20px;
+    left: 33px;
+    top: 115px;
+
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.sovety_nazvanie{
+    position: absolute;
+    width: 323px;
+    height: 66px;
+    left: 18px;
+    top: 138px;
+
+    font-family: AGMelanieC;
+    font-size: 26px;
+    line-height: 93.31%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}
+.sovety_text{
+    position: absolute;
+    width: 323px;
+    height: 23px;
+    left: 18px;
+    top: 204px;
+
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.ellipse2{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 21px;
+    top: 109px;
+}
+
+.history{
+    position: absolute;
+    width: 401px;
+    height: 241px;
+    left: 922px;
+    top: 3179px;
+}
+.history_back{
+    position: absolute;
+    width: 497px;
+    height: 345px;
+    
+    
+    background: url(../image/wendymiao-chen-1438316-unsplash.png) no-repeat;
+}
+.history_zagolovok{
+    position: absolute;
+    width: 142px;
+    height: 20px;
+    left: 32px;
+    top: 76px;
+
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.history_nazvanie{
+    position: absolute;
+    width: 310px;
+    height: 66px;
+    left: 17px;
+    top: 99px;
+    
+    font-family: AGMelanieC;
+    font-size: 26px;
+    line-height: 93.31%;
+    text-align: left;
+    /* or 24px */
+    
+    
+    color: #FFFFFF;
+}
+.history_text{
+    position: absolute;
+    width: 323px;
+    height: 72px;
+    left: 17px;
+    top: 165px;
+
+    font-family: Geometria-extralight;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+.ellipse3{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 20px;
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+
+.konec{
+    position: absolute;
+    width: 1400px;
+    height: 341px;
+    left: 24px;
+    top: 3529px;
+}
+.konec__logo{
+    position: absolute;
+    left: 4.14%;
+    right: 80%;
+    top: 23.75%;
+    bottom: 68.91%;
+}
+.konec_text{
+    position: absolute;
+    width: 233px;
+    height: 55px;
+    left: 58px;
+    top: 146px;
+
+    font-family: Geometria-extralight;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #CACACA;
+}
+.konec_nomer{
+    position: absolute;
+    left: 4.14%;
+    right: 87.07%;
+    top: 71.26%;
+    bottom: 18.48%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #CACACA;
+}
+.konec_adress{
+    position: absolute;
+    left: 4.14%;
+    right: 83.79%;
+    top: 87.68%;
+    bottom: 7.04%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    
+    color: #CACACA;
+}
+.konec_pochta{
+    position: absolute;
+    left: 4.14%;
+    right: 85.29%;
+    top: 99.12%;
+    bottom: -4.4%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #CACACA;
+}
+.konec_text1{
+    position: absolute;
+    left: 26.57%;
+    right: 57.79%;
+    top: 26.69%;
+    bottom: 67.45%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #CACACA;
+}
+.konec_text2{
+    position: absolute;
+    left: 26.57%;
+    right: 63.07%;
+    top: 40.76%;
+    bottom: 53.96%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #CACACA;
+}
+.konec_text3{
+    position: absolute;
+    left: 26.57%;
+    right: 63.86%;
+    top: 50.73%;
+    bottom: 43.99%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text4{
+    position: absolute;
+    left: 26.57%;
+    right: 63.93%;
+    top: 60.7%;
+    bottom: 34.02%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;    
+}
+.konec_text5{
+    position: absolute;
+    left: 26.57%;
+    right: 61.93%;
+    top: 70.67%;
+    bottom: 24.05%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;    
+}
+.konec_text6{
+    position: absolute;
+    left: 26.57%;
+    right: 57.36%;
+    top: 80.65%;
+    bottom: 14.08%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;    
+}
+.konec_text7{
+    position: absolute;
+    left: 50.86%;
+    right: 43.21%;
+    top: 26.69%;
+    bottom: 64.52%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #CACACA;
+}
+.konec_text8{
+    position: absolute;
+    left: 50.93%;
+    right: 44.57%;
+    top: 40.76%;
+    bottom: 53.96%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text9{
+    position: absolute;
+    left: 50.93%;
+    right: 43.07%;
+    top: 50.73%;
+    bottom: 43.99%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #CACACA;
+}
+.konec_text10{
+    position: absolute;
+    left: 50.93%;
+    right: 43.07%;
+    top: 60.7%;
+    bottom: 34.02%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text11{
+    position: absolute;
+    left: 50.93%;
+    right: 43.57%;
+    top: 70.67%;
+    bottom: 24.05%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #CACACA;
+}
+.konec_text12{
+    position: absolute;
+    left: 50.86%;
+    right: 43.43%;
+    top: 80.65%;
+    bottom: 14.08%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text13{
+    position: absolute;
+    left: 65.43%;
+    right: 26.36%;
+    top: 26.69%;
+    bottom: 67.45%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #CACACA;
+}
+.konec_text14{
+    position: absolute;
+    left: 65.43%;
+    right: 25.29%;
+    top: 39.59%;
+    bottom: 55.13%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text15{
+    position: absolute;
+    left: 65.43%;
+    right: 23.36%;
+    top: 50.73%;
+    bottom: 43.99%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #CACACA;
+}
+.konec_text16{
+    position: absolute;
+    left: 65.43%;
+    right: 25%;
+    top: 60.7%;
+    bottom: 34.02%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #CACACA;
+}
+.konec_group{
+    position: absolute;
+    width: 1271px;
+    height: 13.02px;
+    left: 81px;
+    top: 418px;
+}
+.konec_znak{
+    position: absolute;
+    width: 126px;
+    height: 11px;
+    bottom: 2.02px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #A9A9A9;
+}
+.group_confidential{
+    position: absolute;
+    width: 180px;
+    height: 9px;
+    left: 832px;
+    top: 1px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    
+    color: #A9A9A9;
+}
+.line4{
+    position: absolute;
+    width: 12px;
+    height: 0px;
+    left: 1031.5px;
+    top: 1px;
+}
+.line5{
+    position: absolute;
+    width: 12px;
+    height: 0px;
+    left: 1161px;
+    top: 1px;
+}
+.group_pravila{
+    position: absolute;
+    width: 91px;
+    height: 9px;
+    left: 1051px;
+    top: 1px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    
+    color: #A9A9A9;
+}
+.group_dostup{
+    position: absolute;
+    width: 91px;
+    height: 9px;
+    left: 1180px;
+    top: 1px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    
+    color: #A9A9A9;
+}
+.konec_text17{
+    position: absolute;
+    left: 82.29%;
+    right: 7.57%;
+    top: 26.69%;
+    bottom: 64.52%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #CACACA; 
+}
+.instagram-logo{
+    position: absolute;
+    left: 82.78%;
+    right: 15.88%;
+    top: 39.59%;
+    bottom: 54.99%;
+}
+.facebook-logo{
+    position: absolute;
+    left: 90.43%;
+    right: 9.07%;
+    top: 39.59%;
+    bottom: 55.19%;
+}
+.vk-logo{
+    position: absolute;
+    left: 86.43%;
+    right: 11.86%;
+    top: 40.18%;
+    bottom: 55.6%;
+}
+
+
+
+
+
+@media screen and  (max-width: 768px){
+
+}
+
+@media screen and  (max-width: 980px){
+    
+}
